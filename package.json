@@ -2,7 +2,7 @@
   "name": "task-management-web-app",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://github.com/loidamarquina/my-todo-list-app.git",
+  "homepage": "https://loidamarquina.github.io/my-todo-list-app",
   "dependencies": {
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
