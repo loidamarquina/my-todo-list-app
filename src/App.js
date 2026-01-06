@@ -1,11 +1,12 @@
 import React from "react";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import TodosPage from "./components/TodosPage";
 import ContactPage from "./components/ContactPage";
 
 function App() {
   return (
+    <HashRouter>
     <div className="app-container">
       <NavBar />
       <main className="main-content">
@@ -16,6 +17,7 @@ function App() {
         </Routes>
       </main>
     </div>
+    </HashRouter>
   );
 }
 
